@@ -74,7 +74,6 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -304,17 +303,69 @@ template {
 [hidden] {
   display: none; }
 
-.link-wrap {
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url("../fonts/Roboto-Medium.woff") format("woff"), url("../fonts/Roboto-Medium.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: wrap; }
+
+body {
+  width: 1256px;
+  margin: 0 auto;
+  background-color: #849d8f;
+  font-size: 16px;
+  font-family: 'Roboto-Bold', sans-serif;
+  color: #FFFFFF; }
+
+.header {
+  margin-top: 10px;
+  margin-bottom: 40px; }
+
+.nav {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-  .link-wrap div {
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 27px;
+  margin-right: 27px; }
+  .nav a {
+    line-height: 115%; }
+  .nav__logo {
+    width: 154px;
+    height: 64px; }
+  .nav__search {
+    margin-left: 367px; }
+  .nav button {
+    width: 92px;
+    height: 32px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-width: 100px;
-    width: 20%;
-    border: 2px solid #4682B4;
-    background-color: #f2f2f2;
-    padding: 10px;
-    margin: 10px 10px 10px 10px; }
+    align-items: center;
+    margin-left: -10px;
+    color: #FFFFFF;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #849d8f;
+    border-radius: 20px;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 14px; }
+    .nav button img {
+      width: 20px;
+      height: 20px; }
+    .nav button span {
+      margin-left: 8px; }
+  .nav button:last-child {
+    width: 100px; }
