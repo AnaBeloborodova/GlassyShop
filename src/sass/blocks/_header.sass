@@ -1,7 +1,17 @@
 .header
-
   margin-top: 10px
-  margin-bottom: 40px
+
+  &__time,
+  &__tel
+    display: block
+    text-align: end
+    margin-right: 42px
+    font-size: 22px
+    margin-bottom: 8px
+  &__time
+    margin-top: 20px
+    font-size: 14px
+
 
 .nav
   display: flex
@@ -27,6 +37,7 @@
     color: $light
     background: rgba(255, 255, 255, 0.2)
     border: 1px solid $primary
+    box-shadow: none
     border-radius: 20px
     font-family: 'Roboto-Medium', sans-serif
     font-size: 14px

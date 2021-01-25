@@ -2,33 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/fonts/Roboto-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/basket.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/inter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Roboto-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/ace-cream-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/cow-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/sheet-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/thermometer-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_section-about.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/_interface.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_interface.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/_setting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_setting.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_variables.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-article.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-article.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-hit.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-hit.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-slider.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +52,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +65,9 @@
       <updated>1603605050922</updated>
       <workItem from="1603605051975" duration="12000" />
       <workItem from="1603605182953" duration="38000" />
-      <workItem from="1611196492422" duration="7663000" />
+      <workItem from="1611196492422" duration="22877000" />
+      <workItem from="1611549978040" duration="785000" />
+      <workItem from="1611550768909" duration="10815000" />
     </task>
     <servers />
   </component>

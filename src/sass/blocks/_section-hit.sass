@@ -1,0 +1,33 @@
+.main
+  &__hit
+
+    display: flex
+    justify-content: space-around
+    align-items: flex-start
+    & div
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      position: relative
+
+
+.item
+  max-width: 267px
+  &__price
+    font-size: 45px
+    text-shadow: 0px 1px 3px rgba(49, 50, 53, 0.5)
+    position: absolute
+    left: 0%
+    top: 50%
+    & span
+      font-size: 30px
+  &__icon-hit
+    position: absolute
+    top: 0
+    left: 0%
+  &__title
+    font-family: 'Roboto-Medium', sans-serif
+    font-size: 16px
+    line-height: 22px
+    text-align: center
