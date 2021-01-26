@@ -1,0 +1,44 @@
+.footer
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 27px
+  &__social
+    display: flex
+    justify-content: space-between
+    align-items: center
+    & a
+      padding-right: 10px
+
+  &__documents
+    width: 25%
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    position: relative
+    & a
+      font-family: 'Roboto-Regular', sans-serif
+      font-size: 13px
+      line-height: 138%
+      text-decoration: underline
+      text-decoration-color: rgba(255, 255, 255, 0.2)
+      & span
+        font-family: 'Roboto-Bold', sans-serif
+    & a:first-child:before
+      content: url("/dist/img/heart.svg")
+      position: absolute
+      left: -20px
+    & a:nth-child(2)
+      display: block
+      padding-right: 55px
+  &__rights
+    display: flex
+    flex-direction: column
+    & a
+      font-family: 'Roboto-Regular', sans-serif
+      font-size: 12px
+      line-height: 150%
+      & span
+        text-decoration: underline
+        text-decoration-color: rgba(255, 255, 255, 0.2)
+

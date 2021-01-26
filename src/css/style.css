@@ -354,6 +354,49 @@ button {
   font-family: 'Roboto-Bold', sans-serif;
   font-size: 18px; }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px; }
+  .footer__social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer__social a {
+      padding-right: 10px; }
+  .footer__documents {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative; }
+    .footer__documents a {
+      font-family: 'Roboto-Regular', sans-serif;
+      font-size: 13px;
+      line-height: 138%;
+      text-decoration: underline;
+      text-decoration-color: rgba(255, 255, 255, 0.2); }
+      .footer__documents a span {
+        font-family: 'Roboto-Bold', sans-serif; }
+    .footer__documents a:first-child:before {
+      content: url("/dist/img/heart.svg");
+      position: absolute;
+      left: -20px; }
+    .footer__documents a:nth-child(2) {
+      display: block;
+      padding-right: 55px; }
+  .footer__rights {
+    display: flex;
+    flex-direction: column; }
+    .footer__rights a {
+      font-family: 'Roboto-Regular', sans-serif;
+      font-size: 12px;
+      line-height: 150%; }
+      .footer__rights a span {
+        text-decoration: underline;
+        text-decoration-color: rgba(255, 255, 255, 0.2); }
+
 .header {
   margin-top: 10px; }
   .header__time, .header__tel {
@@ -598,7 +641,7 @@ button {
 .main__location {
   height: 430px;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   position: relative; }
 
 .location__contacts {
