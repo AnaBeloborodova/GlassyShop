@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/img/ace-cream-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/cow-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/sheet-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/thermometer-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_section-about.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/background-bands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/background-grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/strawberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_interface.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_interface.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_setting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_setting.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-article.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-article.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-hit.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-hit.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-slider.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +59,8 @@
       <workItem from="1603605182953" duration="38000" />
       <workItem from="1611196492422" duration="22877000" />
       <workItem from="1611549978040" duration="785000" />
-      <workItem from="1611550768909" duration="10815000" />
+      <workItem from="1611550768909" duration="10876000" />
+      <workItem from="1611631048463" duration="3961000" />
     </task>
     <servers />
   </component>

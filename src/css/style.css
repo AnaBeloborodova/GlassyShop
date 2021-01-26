@@ -534,3 +534,63 @@ button {
   .description__item-description img {
     margin-right: 10px;
     margin-top: -40px; }
+
+.main__commercial {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .main__commercial article,
+  .main__commercial form {
+    width: 560px;
+    height: 220px;
+    border-radius: 16px; }
+
+.commercial__blog {
+  background: url("/dist/img/strawberry.png") center no-repeat;
+  padding-top: 23px;
+  padding-left: 20px;
+  color: #323232; }
+  .commercial__blog p {
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 16px; }
+  .commercial__blog h3 {
+    font-family: 'Roboto-Bold', sans-serif;
+    line-height: 125%;
+    text-decoration: underline; }
+
+.commercial__feedback {
+  background: url("/dist/img/background-bands.png") center; }
+
+.feedback__background-grey {
+  background: url("/dist/img/background-grey.png") center no-repeat;
+  margin: 0 auto;
+  border-radius: 16px;
+  color: #5A5A5A;
+  height: 210px;
+  width: 548px;
+  padding-top: 10px; }
+  .feedback__background-grey p {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 137%;
+    padding-left: 20px; }
+  .feedback__background-grey input {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-left: 14px;
+    width: 368px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid rgba(178, 178, 178, 0.52);
+    box-sizing: border-box;
+    line-height: 150%;
+    color: #8d8d8d;
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 16px; }
+  .feedback__background-grey button {
+    width: 130px;
+    height: 44px;
+    margin-left: 10px; }
