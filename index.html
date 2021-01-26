@@ -12,11 +12,26 @@
   <header class="header">
     <nav class="nav header__nav">
       <a class="logo nav__logo"><img src="dist/img/logo.svg"></a>
-      <a>Каталог</a>
+      <a class="catalog-link nav__catalog-link"><span>Каталог</span>
+      <ul class="catalog nav__catalog">
+        <li class="new catalog__new"><a>Новинки</a></li>
+        <li><a>Сливочное</a></li>
+        <li><a>Щербеты</a></li>
+        <li><a>Фруктовый лед</a></li>
+        <li><a>Мелорин</a></li>
+      </ul>
+      </a>
       <a>Доставка и оплата</a>
       <a>О компании</a>
       <a class="search nav__search"><img src="dist/img/search.svg"></a>
       <button class="inter nav__inter"><img src="dist/img/inter.svg"><span>Вход</span></button>
+        <form class="form nav__form">
+            <input type="email" placeholder="email@example.com">
+            <input type="text" placeholder="......">
+            <button type="submit">Войти</button>
+            <p>Забыли пароль?</p>
+            <p>Новая регистрация</p>
+        </form>
       <button class="basket nav__basket"><img src="dist/img/basket.svg"><span>Пусто</span></button>
     </nav>
     <span class="time header__time">с 10 до 20, ежедневно</span>
