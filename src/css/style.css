@@ -594,3 +594,46 @@ button {
     width: 130px;
     height: 44px;
     margin-left: 10px; }
+
+.main__location {
+  height: 430px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  position: relative; }
+
+.location__contacts {
+  position: absolute;
+  width: 306px;
+  height: 303px;
+  background-color: #FEFEFE;
+  border-radius: 16px;
+  color: #323232;
+  right: 5%;
+  top: 10%;
+  padding-top: 32px;
+  padding-left: 25px; }
+  .location__contacts p {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 143%; }
+  .location__contacts h3,
+  .location__contacts span {
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 18px;
+    line-height: 133%; }
+  .location__contacts h3 {
+    margin-top: -15px; }
+    .location__contacts h3 span {
+      display: block;
+      margin-top: -25px; }
+  .location__contacts span {
+    display: block;
+    margin-top: -10px; }
+  .location__contacts p:nth-of-type(3) {
+    display: block;
+    margin-top: 0; }
+  .location__contacts button {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 253px;
+    height: 43px; }
