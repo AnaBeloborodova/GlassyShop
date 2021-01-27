@@ -1,0 +1,56 @@
+.modal
+  display: none
+  position: absolute
+  z-index: 100
+  bottom: -10%
+  right: 100%
+  &__form
+    position: relative
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: flex-start
+    padding-left: 23px
+    width: 477px
+    height: 441px
+    background: #F8F7F4
+    border-radius: 6px
+
+    & h3
+      color: $dark
+      font-family: 'Roboto-Medium', sans-serif
+      font-size: 24px
+      padding-top: 25px
+
+    & input,
+    & textarea
+      padding-left: 14px
+      border: 1px solid rgba(178, 178, 178, 0.52)
+      box-sizing: border-box
+      border-radius: 4px
+      font-family: 'Roboto-Regular', sans-serif
+      font-size: 16px
+    & input
+      width: 267px
+      height: 44px
+    & textarea
+      padding-top: 15px
+
+    & button
+      align-self: flex-end
+      margin-right: 25px
+      margin-bottom: 25px
+      width: 140px
+      height: 44px
+    & button + input
+      width: 18px
+      height: 18px
+      border: none
+
+
+.form
+  &__close
+    position: absolute
+    top: 15px
+    right: 15px
+    background: url("/dist/img/close-icon.svg") center no-repeat

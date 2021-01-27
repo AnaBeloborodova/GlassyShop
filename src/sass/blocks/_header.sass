@@ -20,8 +20,11 @@
   margin-left: 27px
   margin-right: 27px
   position: relative
+  z-index: 2
   & a
     line-height: 115%
+    color: $light
+    text-decoration: none
   &__logo
     width: 154px
     height: 64px
@@ -64,36 +67,39 @@
     left: 14.5%
     z-index: 100
     list-style-type: none
-    display: block
+    display: none
     & li
       padding: 8px
       margin-left: -33px
   &__catalog-link
-    & span:hover
-        cursor: pointer
-        display: block
+    & span
+      position: relative
+      cursor: pointer
+      z-index: 2
+    &:hover > ul
+      display: block
   &__form
-    width: 277px
-    height: 214px
-    background: #F8F7F4
-    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
-    border-radius: 4px
     position: absolute
+    display: none
     top: 81%
     right: 10.8%
-    z-index: 100
-    color: $dark
+    width: 277px
+    height: 214px
     padding-top: 20px
     padding-left: 20px
-    display: block
+    border-radius: 4px
+    background: #F8F7F4
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
+    z-index: 100
+    color: $dark
     & input
       width: 241px
       height: 44px
+      border-radius: 4px
+      padding-left: 15px
+      margin-bottom: 20px
       border: 1px solid #D3D3D2
       box-sizing: border-box
-      border-radius: 4px
-      margin-bottom: 20px
-      padding-left: 15px
     & button
       width: 103px
       height: 44px
@@ -109,6 +115,11 @@
     & p:last-of-type
       margin-top: -15px
       margin-right: 37px
+  &__inter
+    cursor: pointer
+    &:active + form,
+    &:focus + form
+      display: block
 
 
 .catalog
@@ -121,8 +132,65 @@
       background-color: rgba(50, 50, 50, 0.2)
       float: right
 
+.search
+  &__search-icon
+    margin-top: 3px
+    cursor: pointer
+    width: 32px
+    height: 32px
+    background: url("/dist/img/search.svg") center no-repeat
+    border: none
+    &:active,
+    &:focus
+      background: url("/dist/img/search-active.svg") center no-repeat
+    &:active + div,
+    &:focus + div
+      display: block
+  &__box
+    position: absolute
+    top: 80%
+    right: 19.8%
+    padding-top: 20px
+    padding-bottom: 20px
+    width: 341px
+    height: 44px
+    background: #F8F7F4
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
+    border-radius: 4px
+    z-index: 2
+    box-sizing: content-box
+    text-align: center
+    display: none
 
+.box
+  &__field
+    padding-left: 10px
+    width: 311px
+    height: 44px
+    font-family: 'Roboto-Regular', sans-serif
+    font-size: 14px
+    line-height: 114%
+    color: #999999
+    border: 1px solid #D3D3D2
+    box-sizing: border-box
+    border-radius: 4px
 
+.div
+  display: flex
+  flex-direction: column
+.block-class, .block-class1
+  display: none
+  width: 100px
+  height: 100px
+  background: green
+
+.input-test
+  &:checked + .block-class
+    display: block
+
+.input-test1
+  &:checked + .block-class1
+    display: block
 
 
 
