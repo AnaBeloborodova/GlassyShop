@@ -8,6 +8,7 @@
     margin-right: 42px
     font-size: 22px
     margin-bottom: 8px
+
   &__time
     margin-top: 20px
     font-size: 14px
@@ -21,38 +22,27 @@
   margin-right: 27px
   position: relative
   z-index: 2
+
   & a
     line-height: 115%
     color: $light
     text-decoration: none
+
   &__logo
     width: 154px
     height: 64px
+  &__link
+    &:hover
+      background-color: $light
+      border: 10px solid $light
+      border-radius: 26px
+      color: $dark
+
   &__search
     margin-left: 367px
-  &__inter,
-  &__basket
-    width: 92px
-    height: 32px
-    display: flex
-    justify-content: center
-    align-items: center
-    margin-left: -10px
-    color: $light
-    background: rgba(255, 255, 255, 0.2)
-    border: 1px solid $primary
-    box-shadow: none
-    border-radius: 20px
-    font-family: 'Roboto-Medium', sans-serif
-    font-size: 14px
-    & img
-      width: 20px
-      height: 20px
-    & span
-      margin-left: 8px
-  &__basket
-    width: 100px
+
   &__catalog
+    display: none
     background: $light
     width: 110px
     height: 171px
@@ -63,21 +53,32 @@
     line-height: 114%
     color: $dark
     position: absolute
-    top: 43%
+    top: 63%
     left: 14.5%
     z-index: 100
     list-style-type: none
-    display: none
+
     & li
       padding: 8px
       margin-left: -33px
+    & a
+      color: $dark
+
   &__catalog-link
     & span
       position: relative
       cursor: pointer
       z-index: 2
+    & span:hover
+      background-color: $light
+      border: 10px solid $light
+      border-radius: 26px
+      color: $dark
+
+
     &:hover > ul
       display: block
+
   &__form
     position: absolute
     display: none
@@ -92,6 +93,7 @@
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
     z-index: 100
     color: $dark
+
     & input
       width: 241px
       height: 44px
@@ -100,9 +102,17 @@
       margin-bottom: 20px
       border: 1px solid #D3D3D2
       box-sizing: border-box
+      &:hover,
+      &:focus,
+      &:active
+        cursor: pointer
+        outline-color: #E74A35
+        border: 2px solid #E74A35
+
     & button
       width: 103px
       height: 44px
+
     & p
       font-family: 'Roboto-Regular', sans-serif
       font-size: 13px
@@ -112,19 +122,39 @@
       display: block
       margin-right: 55px
       margin-top: 3px
+
     & p:last-of-type
       margin-top: -15px
       margin-right: 37px
+
   &__inter
     cursor: pointer
+    background: url("/dist/img/inter.svg") center no-repeat
+    width: 92px
+    height: 32px
+    box-shadow: none
+    &:hover,
+    &:focus,
+    &:active
+      background: url("/dist/img/inter-active.svg") center no-repeat
     &:active + form,
     &:focus + form
       display: block
+
+  &__basket
+    cursor: pointer
+    background: url("/dist/img/basket.png") center no-repeat
+    width: 100px
+    height: 32px
+    box-shadow: none
+    &:hover
+      background: url("/dist/img/basket-hover.png") center no-repeat
 
 
 .catalog
   &__new
     font-family: 'Roboto-Bold', sans-serif
+
     & a::after
       content: ''
       width: 128px
@@ -140,12 +170,15 @@
     height: 32px
     background: url("/dist/img/search.svg") center no-repeat
     border: none
+    &:hover,
     &:active,
     &:focus
       background: url("/dist/img/search-active.svg") center no-repeat
+
     &:active + div,
     &:focus + div
       display: block
+
   &__box
     position: absolute
     top: 80%
@@ -161,6 +194,13 @@
     box-sizing: content-box
     text-align: center
     display: none
+    & input
+      &:hover,
+      &:focus,
+      &:active
+        cursor: pointer
+        outline-color: #E74A35
+        border: 2px solid #E74A35
 
 .box
   &__field
@@ -178,6 +218,7 @@
 .div
   display: flex
   flex-direction: column
+
 .block-class, .block-class1
   display: none
   width: 100px

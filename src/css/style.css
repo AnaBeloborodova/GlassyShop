@@ -352,7 +352,17 @@ button {
   border: none;
   color: #FFFFFF;
   font-family: 'Roboto-Bold', sans-serif;
-  font-size: 18px; }
+  font-size: 18px;
+  cursor: pointer;
+  outline-style: none; }
+
+.button--orange:hover {
+  transform: scale(1.1);
+  color: #323232;
+  font-weight: bold; }
+
+input {
+  outline-style: none; }
 
 .footer {
   display: flex;
@@ -365,6 +375,8 @@ button {
     align-items: center; }
     .footer__social a {
       padding-right: 10px; }
+      .footer__social a:hover {
+        transform: scale(1.05); }
   .footer__documents {
     width: 25%;
     display: flex;
@@ -380,6 +392,8 @@ button {
       text-decoration-color: rgba(255, 255, 255, 0.2); }
       .footer__documents a span {
         font-family: 'Roboto-Bold', sans-serif; }
+      .footer__documents a:hover {
+        color: #323232; }
     .footer__documents a:first-child:before {
       content: url("/dist/img/heart.svg");
       position: absolute;
@@ -395,9 +409,13 @@ button {
       font-size: 12px;
       line-height: 150%;
       color: #FFFFFF; }
+      .footer__rights a:hover {
+        color: #323232; }
       .footer__rights a span {
         text-decoration: underline;
         text-decoration-color: rgba(255, 255, 255, 0.2); }
+    .footer__rights a:first-of-type:hover {
+      transform: scale(1.05); }
 
 .header {
   margin-top: 10px; }
@@ -426,30 +444,15 @@ button {
   .nav__logo {
     width: 154px;
     height: 64px; }
+  .nav__link:hover {
+    background-color: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    border-radius: 26px;
+    color: #323232; }
   .nav__search {
     margin-left: 367px; }
-  .nav__inter, .nav__basket {
-    width: 92px;
-    height: 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -10px;
-    color: #FFFFFF;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #849d8f;
-    box-shadow: none;
-    border-radius: 20px;
-    font-family: 'Roboto-Medium', sans-serif;
-    font-size: 14px; }
-    .nav__inter img, .nav__basket img {
-      width: 20px;
-      height: 20px; }
-    .nav__inter span, .nav__basket span {
-      margin-left: 8px; }
-  .nav__basket {
-    width: 100px; }
   .nav__catalog {
+    display: none;
     background: #FFFFFF;
     width: 110px;
     height: 171px;
@@ -460,18 +463,24 @@ button {
     line-height: 114%;
     color: #323232;
     position: absolute;
-    top: 43%;
+    top: 63%;
     left: 14.5%;
     z-index: 100;
-    list-style-type: none;
-    display: none; }
+    list-style-type: none; }
     .nav__catalog li {
       padding: 8px;
       margin-left: -33px; }
+    .nav__catalog a {
+      color: #323232; }
   .nav__catalog-link span {
     position: relative;
     cursor: pointer;
     z-index: 2; }
+  .nav__catalog-link span:hover {
+    background-color: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    border-radius: 26px;
+    color: #323232; }
   .nav__catalog-link:hover > ul {
     display: block; }
   .nav__form {
@@ -496,6 +505,10 @@ button {
       margin-bottom: 20px;
       border: 1px solid #D3D3D2;
       box-sizing: border-box; }
+      .nav__form input:hover, .nav__form input:focus, .nav__form input:active {
+        cursor: pointer;
+        outline-color: #E74A35;
+        border: 2px solid #E74A35; }
     .nav__form button {
       width: 103px;
       height: 44px; }
@@ -512,10 +525,24 @@ button {
       margin-top: -15px;
       margin-right: 37px; }
   .nav__inter {
-    cursor: pointer; }
+    cursor: pointer;
+    background: url("/dist/img/inter.svg") center no-repeat;
+    width: 92px;
+    height: 32px;
+    box-shadow: none; }
+    .nav__inter:hover, .nav__inter:focus, .nav__inter:active {
+      background: url("/dist/img/inter-active.svg") center no-repeat; }
     .nav__inter:active + form,
     .nav__inter:focus + form {
       display: block; }
+  .nav__basket {
+    cursor: pointer;
+    background: url("/dist/img/basket.png") center no-repeat;
+    width: 100px;
+    height: 32px;
+    box-shadow: none; }
+    .nav__basket:hover {
+      background: url("/dist/img/basket-hover.png") center no-repeat; }
 
 .catalog__new {
   font-family: 'Roboto-Bold', sans-serif; }
@@ -533,7 +560,7 @@ button {
   height: 32px;
   background: url("/dist/img/search.svg") center no-repeat;
   border: none; }
-  .search__search-icon:active, .search__search-icon:focus {
+  .search__search-icon:hover, .search__search-icon:active, .search__search-icon:focus {
     background: url("/dist/img/search-active.svg") center no-repeat; }
   .search__search-icon:active + div,
   .search__search-icon:focus + div {
@@ -554,6 +581,10 @@ button {
   box-sizing: content-box;
   text-align: center;
   display: none; }
+  .search__box input:hover, .search__box input:focus, .search__box input:active {
+    cursor: pointer;
+    outline-color: #E74A35;
+    border: 2px solid #E74A35; }
 
 .box__field {
   padding-left: 10px;
@@ -681,6 +712,13 @@ button {
     line-height: 22px;
     text-align: center; }
 
+.hit__item:hover {
+  cursor: pointer;
+  border: 2px solid #E74A35;
+  border-radius: 25px; }
+  .hit__item:hover p:first-of-type {
+    color: #323232; }
+
 .main__about {
   width: 95%;
   height: 300px;
@@ -741,9 +779,15 @@ button {
     font-family: 'Roboto-Bold', sans-serif;
     line-height: 125%;
     text-decoration: underline; }
+  .commercial__blog:hover {
+    cursor: pointer;
+    transform: scale(1.1); }
 
 .commercial__feedback {
   background: url("/dist/img/background-bands.png") center; }
+  .commercial__feedback:hover {
+    cursor: pointer;
+    transform: scale(1.1); }
 
 .feedback__background-grey {
   background: url("/dist/img/background-grey.png") center no-repeat;
@@ -772,6 +816,10 @@ button {
     color: #8d8d8d;
     font-family: 'Roboto-Regular', sans-serif;
     font-size: 16px; }
+    .feedback__background-grey input:hover, .feedback__background-grey input:focus, .feedback__background-grey input:active {
+      cursor: pointer;
+      outline-color: #E74A35;
+      border: 2px solid #E74A35; }
   .feedback__background-grey button {
     width: 130px;
     height: 44px;
@@ -824,6 +872,10 @@ button {
     .location__contacts button:active + div {
       display: block; }
 
+.location__map {
+  height: 430px;
+  width: 1256px; }
+
 .modal {
   display: none;
   position: absolute;
@@ -854,6 +906,13 @@ button {
       border-radius: 4px;
       font-family: 'Roboto-Regular', sans-serif;
       font-size: 16px; }
+      .modal__form input:hover, .modal__form input:focus, .modal__form input:active,
+      .modal__form textarea:hover,
+      .modal__form textarea:focus,
+      .modal__form textarea:active {
+        cursor: pointer;
+        outline-color: #E74A35;
+        border: 2px solid #E74A35; }
     .modal__form input {
       width: 267px;
       height: 44px; }

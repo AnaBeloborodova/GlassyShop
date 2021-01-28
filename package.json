@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "dependencies": {
+    "jquery": "^3.5.1",
     "jshint": "^2.11.0",
     "save-dev": "^0.0.1-security"
   },

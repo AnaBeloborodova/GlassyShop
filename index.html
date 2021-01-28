@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="dist/css/style.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=e0e92ae0-e52b-4333-a12a-36c943c85c21&lang=ru_RU" type="text/javascript">
+    </script>
 </head>
 
 <body>
@@ -22,59 +25,36 @@
                 <li><a href="#">Мелорин</a></li>
             </ul>
         </div>
-        <a href="#">Доставка и оплата</a>
-        <a href="#">О компании</a>
+        <a href="#" class="link nav__link">Доставка и оплата</a>
+        <a href="#" class="link nav__link">О компании</a>
         <div class="search nav__search">
             <input type="button" class="search-icon search__search-icon">
             <div class="box search__box">
                 <input type="text" placeholder="Крем-брюле" class="field box__field">
             </div>
         </div>
-        <button class="inter nav__inter"><img src="dist/img/inter.svg"><span>Вход</span></button>
+        <button class="inter nav__inter"></button>
         <form class="form nav__form">
             <input type="email" placeholder="email@example.com">
             <input type="text" placeholder="......">
-            <button type="submit">Войти</button>
+            <button type="submit" class="button--orange">Войти</button>
             <p>Забыли пароль?</p>
             <p>Новая регистрация</p>
         </form>
-        <button class="basket nav__basket"><img src="dist/img/basket.svg"><span>Пусто</span></button>
+        <button class="basket nav__basket"></button>
     </nav>
     <span class="time header__time">с 10 до 20, ежедневно</span>
     <span class="tel header__tel">8 812 450-25-25</span>
 </header>
 
 <main class="main">
+
     <section class="slider main__slider">
         <div class="slider-item">
             <img src="dist/img/ice-cream1.png">
             <img src="dist/img/ice-cream2.png">
             <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
-            <button type="submit">Давайте оба!</button>
-            <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow">
-            <div class="input-group slider__input-group">
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-            </div>
-        </div>
-        <div class="slider-item">
-            <img src="dist/img/ice-cream1.png">
-            <img src="dist/img/ice-cream2.png">
-            <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
-            <button type="submit">Давайте оба!</button>
-            <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow">
-            <div class="input-group slider__input-group">
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-            </div>
-        </div>
-        <div class="slider-item">
-            <img src="dist/img/ice-cream1.png">
-            <img src="dist/img/ice-cream2.png">
-            <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
-            <button type="submit">Давайте оба!</button>
+            <button type="submit" class="button--orange">Давайте оба!</button>
             <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow">
             <div class="input-group slider__input-group">
                 <input type="radio">
@@ -84,19 +64,53 @@
         </div>
     </section>
 
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="dist/img/ice-cream1.png">
+                <img src="dist/img/ice-cream2.png">
+                <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
+                <button type="submit" class="button--orange">Давайте оба!</button>
+                <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow">
+            </div>
+            <div class="swiper-slide">
+                <img src="dist/img/ice-cream1.png">
+                <img src="dist/img/ice-cream2.png">
+                <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
+                <button type="submit" class="button--orange">Давайте оба!</button>
+                <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow">
+            </div>
+            <img src="dist/img/ice-cream1.png">
+            <img src="dist/img/ice-cream2.png">
+            <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
+            <button type="submit" class="button--orange">Давайте оба!</button>
+            <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow"></div>
+            ...
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
 
     <section class="article main__article">
         <article class="raspberry article__raspberry">
             <h2>Малинка даром!</h2>
             <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья
                 бесплатно.</p>
-            <button><span>Хочу варенье!</span></button>
+            <button class="button--orange"><span>Хочу варенье!</span></button>
         </article>
         <article class="chocolate article__chocolate">
             <h2>Шоколадки даром!</h2>
             <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно
                 бесплатно.</p>
-            <button><span>Хочу шоколадки!</span></button>
+            <button class="button--orange"><span>Хочу шоколадки!</span></button>
         </article>
     </section>
 
@@ -169,32 +183,27 @@
                     происходит. Обещаем не спамить <br>и не слать всякой ненужной ерунды. Честно =)
                 </p>
                 <input type="email" placeholder="email@example.com">
-                <button><span>Отправить</span></button>
+                <button class="button--orange"><span>Отправить</span></button>
             </div>
         </form>
     </section>
 
     <section class="location main__location">
-        <div class="map location__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3997.2341348445207!2d30.317897557388928!3d59.93849613267204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1611636869128!5m2!1sru!2sru"
-                    width="1256" height="430" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0">
-            </iframe>
-        </div>
+        <div class="map location__map" id="map"></div>
         <div class="contacts location__contacts">
             <p>Адрес главного офиса <br>и офлайн-магазина:</p>
             <h3>ул. Большая Конюшенная, <br></br><span>19/8, Санкт-Петербург</span></h3>
             <p>Для заказов по телефону:</p>
             <span>8 812 450-25-25</span>
             <p>(с 10 до 20 ежедневно)</p>
-            <button type="button">Форма обратной связи</button>
+            <button type="button" class="button--orange">Форма обратной связи</button>
             <div class="modal">
                 <form action="" class="form modal__form">
                     <h3>Мы обязательно вам ответим!</h3>
                     <input type="text" placeholder="Имя Фамилия">
                     <input type="email" placeholder="email@example.com">
                     <textarea name="form" id="" cols="52" rows="8" placeholder="В свободной форме"></textarea>
-                    <button type="submit">Отправить</button>
+                    <button type="submit" class="button--orange">Отправить</button>
                     <input type="button" class="close form__close">
                 </form>
             </div>
@@ -202,8 +211,6 @@
 
 
     </section>
-
-
 
 
     <div class="div">
@@ -237,6 +244,10 @@
     </div>
 
 </footer>
+
+<script src="/dist/js/jquery.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="/dist/js/main.js"></script>
 
 
 </body>

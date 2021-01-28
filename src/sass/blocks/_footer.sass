@@ -9,6 +9,8 @@
     align-items: center
     & a
       padding-right: 10px
+      &:hover
+        transform: scale(1.05)
   &__documents
     width: 25%
     display: flex
@@ -24,6 +26,8 @@
       text-decoration-color: rgba(255, 255, 255, 0.2)
       & span
         font-family: 'Roboto-Bold', sans-serif
+      &:hover
+        color: $dark
     & a:first-child:before
       content: url("/dist/img/heart.svg")
       position: absolute
@@ -39,9 +43,16 @@
       font-size: 12px
       line-height: 150%
       color: $light
+      &:hover
+        color: $dark
       & span
         text-decoration: underline
         text-decoration-color: rgba(255, 255, 255, 0.2)
+    & a:first-of-type
+      &:hover
+        transform: scale(1.05)
+
+
 
 
 
