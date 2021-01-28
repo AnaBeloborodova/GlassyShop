@@ -4,15 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="dist/css/style.min.css">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=e0e92ae0-e52b-4333-a12a-36c943c85c21&lang=ru_RU" type="text/javascript">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=e0e92ae0-e52b-4333-a12a-36c943c85c21&lang=ru_RU"
+            type="text/javascript">
     </script>
 </head>
 
 <body>
 
-<header class="header">
+<div class="swiper-container-fon">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide primary "></div>
+        <div class="swiper-slide secondary"></div>
+        <div class="swiper-slide tertiary"></div>
+    </div>
+</div>
+
+<header class="header container">
     <nav class="nav header__nav">
         <a href="#" class="logo nav__logo"><img src="dist/img/logo.svg"></a>
         <div class="catalog-link nav__catalog-link">
@@ -47,54 +58,31 @@
     <span class="tel header__tel">8 812 450-25-25</span>
 </header>
 
-<main class="main">
-
-    <section class="slider main__slider">
-        <div class="slider-item">
-            <img src="dist/img/ice-cream1.png">
-            <img src="dist/img/ice-cream2.png">
-            <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
-            <button type="submit" class="button--orange">Давайте оба!</button>
-            <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow">
-            <div class="input-group slider__input-group">
-                <input type="radio">
-                <input type="radio">
-                <input type="radio">
-            </div>
-        </div>
-    </section>
+<main class="main container">
 
     <div class="swiper-container">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-                <img src="dist/img/ice-cream1.png">
-                <img src="dist/img/ice-cream2.png">
+                <img src="dist/img/slides/slide1.png">
                 <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
                 <button type="submit" class="button--orange">Давайте оба!</button>
-                <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow">
             </div>
             <div class="swiper-slide">
-                <img src="dist/img/ice-cream1.png">
-                <img src="dist/img/ice-cream2.png">
-                <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
+                <img src="dist/img/slides/slide2.png">
+                <h1>Шоколадный пломбир <br>и лимонный сорбет</h1>
                 <button type="submit" class="button--orange">Давайте оба!</button>
-                <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow">
             </div>
-            <img src="dist/img/ice-cream1.png">
-            <img src="dist/img/ice-cream2.png">
-            <h1>Крем-брюле и пломбир <br>с малиновым джемом</h1>
-            <button type="submit" class="button--orange">Давайте оба!</button>
-            <img src="dist/img/background-shadow.svg" class="background-shadow slider__background-shadow"></div>
-            ...
+            <div class="swiper-slide">
+                <img src="dist/img/slides/slide3.png">
+                <h1>Пломбир с помадкой <br>и клубничный щербет</h1>
+                <button type="submit" class="button--orange">Давайте оба!</button>
+            </div>
+
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
 
     </div>
 
@@ -212,20 +200,9 @@
 
     </section>
 
-
-    <div class="div">
-        <label for="test" class="label-class"> какойт текст</label>
-        <input type="radio" id="test" name="green-block" class="input-test">
-        <div class="block-class"></div>
-
-        <label for="test1" class="label-class"> второй какойт текст</label>
-        <input type="radio" id="test1" name="green-block" class="input-test1">
-        <div class="block-class1"></div>
-    </div>
-
 </main>
 
-<footer class="footer">
+<footer class="footer container">
     <div class="social footer__social">
         <a href="#"><img src="dist/img/facebook.svg"></a>
         <a href="#"><img src="dist/img/vkontakte.svg"></a>
@@ -244,6 +221,7 @@
     </div>
 
 </footer>
+
 
 <script src="/dist/js/jquery.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

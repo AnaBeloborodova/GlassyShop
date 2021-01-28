@@ -4,6 +4,7 @@
     display: flex
     justify-content: space-around
     align-items: flex-start
+    margin-top: 40px
     & div
       display: flex
       flex-direction: column
@@ -33,9 +34,11 @@
     text-align: center
 .hit
   &__item
+    border: 2px solid transparent
+    box-sizing: border-box
     &:hover
       cursor: pointer
-      border: 2px solid #E74A35
+      border-color: #E74A35
       border-radius: 25px
       & p:first-of-type
         color: $dark

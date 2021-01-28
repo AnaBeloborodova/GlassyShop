@@ -2,26 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/img/basket-hover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/img/inter-active.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/ice-cream1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/ice-cream2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/ice-cream3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/ice-cream4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/ice-cream5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/ice-cream6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/img/slides/slide3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/blocks/_slider-body.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/basket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/basket.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/inter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/inter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ice-cream1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ice-cream2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_interface.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_interface.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_setting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_setting.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-article.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-article.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-hit.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-hit.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-location.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-location.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-slider.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,10 @@
       <workItem from="1611755343631" duration="15000" />
       <workItem from="1611759813383" duration="77000" />
       <workItem from="1611807480842" duration="15000" />
-      <workItem from="1611807496701" duration="14021000" />
+      <workItem from="1611807496701" duration="14357000" />
+      <workItem from="1611825760970" duration="3060000" />
+      <workItem from="1611834375854" duration="286000" />
+      <workItem from="1611835369515" duration="11274000" />
     </task>
     <servers />
   </component>
