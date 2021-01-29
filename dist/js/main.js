@@ -63,3 +63,31 @@ var mySwiper = new Swiper('.swiper-container-fon', {
     // },
 
 });
+
+// валидация формы
+
+$(".modal__form").validate({
+    errorClass: "invalid",
+    rules: {
+        // simple rule, converted to {required:true}
+        userName: {
+            required: true,
+            minlength: 2
+        },
+        // compound rule
+        userEmail: {
+            required: true,
+            email: true
+        }
+    },
+    messages: {
+        userName: {
+            required: "Имя и Фамилия обязательны",
+            minlength: "Имя не короче двух букв"
+        },
+        userEmail: {
+            required: "Обязательно введите email",
+            email: "Введите в формате name@domain.com"
+        }
+    }
+});

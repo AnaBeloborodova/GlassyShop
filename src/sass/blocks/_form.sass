@@ -45,7 +45,7 @@
     & button
       align-self: flex-end
       margin-right: 25px
-      margin-bottom: 25px
+      margin-bottom: 15px
       width: 140px
       height: 44px
     & button + input
@@ -60,3 +60,12 @@
     top: 15px
     right: 15px
     background: url("/dist/img/close-icon.svg") center no-repeat
+
+label
+  &.invalid
+    color: tomato
+    font-size: 12px
+    font-family: 'Roboto-Regular', sans-serif
+input
+  &.invalid
+    border: 2px solid tomato
