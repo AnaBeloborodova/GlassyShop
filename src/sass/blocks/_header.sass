@@ -1,4 +1,6 @@
 .header
+  position: relative
+  z-index: 2
   padding-top: 10px
 
   &__time,
@@ -21,7 +23,6 @@
   margin-left: 27px
   margin-right: 27px
   position: relative
-  z-index: 2
 
   & a
     line-height: 115%
@@ -32,10 +33,11 @@
     width: 154px
     height: 64px
   &__link
+    border: 10px solid transparent
+    border-radius: 26px
     &:hover
       background-color: $light
-      border: 10px solid $light
-      border-radius: 26px
+      border-color: $light
       color: $dark
 
   &__search
@@ -44,7 +46,7 @@
   &__catalog
     display: none
     background: $light
-    width: 110px
+    width: 150px
     height: 171px
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4)
     border-radius: 4px
@@ -68,14 +70,12 @@
     & span
       position: relative
       cursor: pointer
-      z-index: 2
+      border: 10px solid transparent
+      border-radius: 26px
     & span:hover
       background-color: $light
-      border: 10px solid $light
-      border-radius: 26px
+      border-color: $light
       color: $dark
-
-
     &:hover > ul
       display: block
 
@@ -113,19 +113,21 @@
       width: 103px
       height: 44px
 
-    & p
+    & a
+      color: $dark
+      cursor: pointer
       font-family: 'Roboto-Regular', sans-serif
       font-size: 13px
       line-height: 115%
-      text-decoration: underline
       float: right
       display: block
-      margin-right: 55px
+      margin-right: 40px
       margin-top: 3px
+      text-decoration: underline
 
-    & p:last-of-type
+    & a:last-of-type
       margin-top: -15px
-      margin-right: 37px
+      margin-right: 22px
 
   &__inter
     cursor: pointer

@@ -427,6 +427,8 @@ input {
       transform: scale(1.05); }
 
 .header {
+  position: relative;
+  z-index: 2;
   padding-top: 10px; }
   .header__time, .header__tel {
     display: block;
@@ -444,8 +446,7 @@ input {
   align-items: center;
   margin-left: 27px;
   margin-right: 27px;
-  position: relative;
-  z-index: 2; }
+  position: relative; }
   .nav a {
     line-height: 115%;
     color: #FFFFFF;
@@ -453,17 +454,19 @@ input {
   .nav__logo {
     width: 154px;
     height: 64px; }
-  .nav__link:hover {
-    background-color: #FFFFFF;
-    border: 10px solid #FFFFFF;
-    border-radius: 26px;
-    color: #323232; }
+  .nav__link {
+    border: 10px solid transparent;
+    border-radius: 26px; }
+    .nav__link:hover {
+      background-color: #FFFFFF;
+      border-color: #FFFFFF;
+      color: #323232; }
   .nav__search {
     margin-left: 367px; }
   .nav__catalog {
     display: none;
     background: #FFFFFF;
-    width: 110px;
+    width: 150px;
     height: 171px;
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.4);
     border-radius: 4px;
@@ -484,11 +487,11 @@ input {
   .nav__catalog-link span {
     position: relative;
     cursor: pointer;
-    z-index: 2; }
+    border: 10px solid transparent;
+    border-radius: 26px; }
   .nav__catalog-link span:hover {
     background-color: #FFFFFF;
-    border: 10px solid #FFFFFF;
-    border-radius: 26px;
+    border-color: #FFFFFF;
     color: #323232; }
   .nav__catalog-link:hover > ul {
     display: block; }
@@ -521,18 +524,20 @@ input {
     .nav__form button {
       width: 103px;
       height: 44px; }
-    .nav__form p {
+    .nav__form a {
+      color: #323232;
+      cursor: pointer;
       font-family: 'Roboto-Regular', sans-serif;
       font-size: 13px;
       line-height: 115%;
-      text-decoration: underline;
       float: right;
       display: block;
-      margin-right: 55px;
-      margin-top: 3px; }
-    .nav__form p:last-of-type {
+      margin-right: 40px;
+      margin-top: 3px;
+      text-decoration: underline; }
+    .nav__form a:last-of-type {
       margin-top: -15px;
-      margin-right: 37px; }
+      margin-right: 22px; }
   .nav__inter {
     cursor: pointer;
     background: url("/dist/img/inter.svg") center no-repeat;
