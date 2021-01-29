@@ -716,7 +716,7 @@ input {
 
 .main__about {
   width: 95%;
-  height: 300px;
+  height: 330px;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -791,7 +791,8 @@ input {
   color: #5A5A5A;
   height: 210px;
   width: 548px;
-  padding-top: 10px; }
+  padding-top: 10px;
+  margin-top: 5px; }
   .feedback__background-grey p {
     font-family: 'Roboto-Regular', sans-serif;
     font-size: 16px;
@@ -859,8 +860,6 @@ input {
     margin-top: 0; }
   .location__contacts button {
     cursor: pointer;
-    margin-top: 30px;
-    margin-left: 15px;
     width: 253px;
     height: 43px; }
     .location__contacts button:focus + div,
