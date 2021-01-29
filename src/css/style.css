@@ -928,11 +928,17 @@ input {
       height: 18px;
       border: none; }
 
-.form__close {
+.modal__close {
   position: absolute;
-  top: 15px;
-  right: 15px;
-  background: url("/dist/img/close-icon.svg") center no-repeat; }
+  top: 10px;
+  right: 10px;
+  width: 18px;
+  height: 18px;
+  background: url("/dist/img/close-icon.svg") center no-repeat;
+  z-index: 101;
+  border: none; }
+  .modal__close:active + form {
+    display: none; }
 
 label.invalid {
   color: tomato;
