@@ -4,9 +4,11 @@
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -87,6 +90,9 @@
       <workItem from="1611825760970" duration="3060000" />
       <workItem from="1611834375854" duration="286000" />
       <workItem from="1611835369515" duration="11620000" />
+      <workItem from="1611926492113" duration="1534000" />
+      <workItem from="1612065060498" duration="54000" />
+      <workItem from="1612413723409" duration="3931000" />
     </task>
     <task id="LOCAL-00001" summary="слайдер">
       <created>1611849758344</created>

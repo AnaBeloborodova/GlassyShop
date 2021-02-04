@@ -538,6 +538,10 @@ input {
     .nav__form a:last-of-type {
       margin-top: -15px;
       margin-right: 22px; }
+    .nav__form label.invalid {
+      display: block;
+      margin-top: -10px;
+      margin-bottom: 3px; }
   .nav__inter {
     cursor: pointer;
     background: url("/dist/img/inter.svg") center no-repeat;
@@ -825,6 +829,10 @@ input {
     width: 130px;
     height: 44px;
     margin-left: 10px; }
+  .feedback__background-grey label.invalid {
+    display: block;
+    margin-top: -16px;
+    margin-left: 21px; }
 
 .main__location {
   height: 430px;

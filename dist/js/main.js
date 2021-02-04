@@ -91,3 +91,43 @@ $(".modal__form").validate({
         }
     }
 });
+
+$(".commercial__feedback").validate({
+    errorClass: "invalid",
+    rules: {
+        // compound rule
+        userEmail: {
+            required: true,
+            email: true
+        }
+    },
+    messages: {
+        userEmail: {
+            required: "Обязательно введите email",
+            email: "Введите в формате name@domain.com"
+        }
+    }
+});
+
+$(".nav__form").validate({
+    errorClass: "invalid",
+    rules: {
+        // compound rule
+        userEmail: {
+            required: true,
+            email: true
+        },
+        password: {
+            required: true
+        }
+    },
+    messages: {
+        userEmail: {
+            required: "Обязательно введите email",
+            email: "Введите в формате name@domain.com"
+        },
+        password: {
+            required: "Пароль обязателен"
+        }
+    }
+});
