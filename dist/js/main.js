@@ -131,3 +131,21 @@ $(".nav__form").validate({
         }
     }
 });
+
+// подключение форм
+
+let navForm = document.querySelector('.nav__form');
+document.querySelector('.nav__inter').addEventListener('click', ()=>{
+    navForm.style.display = 'block';
+});
+
+let modalForm = document.querySelector('.modal');
+
+modalForm.querySelector('.modal__close').addEventListener('click', ()=>{
+   modalForm.style.display = 'none';
+});
+
+document.querySelector('#map-btn').addEventListener('click', ()=>{
+    console.log(modalForm);
+    modalForm.style.display = 'block';
+});

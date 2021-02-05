@@ -1,0 +1,34 @@
+@media screen and (max-width: 1024px)
+  html
+    font-size: 12px
+
+  .header
+    &__time,
+    &__tel
+      text-align: start
+      margin-left: 3.5rem
+
+  .nav
+    justify-content: start
+    &__search,
+    & button
+      margin-left: 0.7rem
+    &__logo
+      display: none
+
+// @media screen and (max-width: 768px)
+
+
+
+@media screen and (max-width: 480px)
+  .header
+    &__nav
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: flex-start
+
+  .nav
+    &__search,
+    & button
+      margin-top: 0.7rem
