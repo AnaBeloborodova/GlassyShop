@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpmailer/Exception.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpmailer/PHPMailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpmailer/SMTP.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sass/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_interface.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_interface.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_setting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_setting.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_form.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-about.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-hit.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-hit.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-location.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-location.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-slider.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-slider.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +98,10 @@
       <workItem from="1612413723409" duration="12512000" />
       <workItem from="1612509217648" duration="1204000" />
       <workItem from="1612510959466" duration="116000" />
-      <workItem from="1612511176482" duration="2965000" />
+      <workItem from="1612511176482" duration="3915000" />
+      <workItem from="1612775456894" duration="1456000" />
+      <workItem from="1612931803796" duration="1208000" />
+      <workItem from="1612946966945" duration="18238000" />
     </task>
     <task id="LOCAL-00001" summary="слайдер">
       <created>1611849758344</created>

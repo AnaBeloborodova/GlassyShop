@@ -1,34 +1,128 @@
-@media screen and (max-width: 1024px)
+@media (max-width: 1024px)
   html
     font-size: 12px
+  .container
+    width: 1024px
 
   .header
     &__time,
     &__tel
       text-align: start
       margin-left: 3.5rem
-
   .nav
     justify-content: start
     &__search,
     & button
       margin-left: 0.7rem
-    &__logo
-      display: none
+    &__search
+      margin-left: 18.7rem
 
-// @media screen and (max-width: 768px)
+  .article
+    flex-direction: column
+    &__raspberry
+      margin-bottom: 20px
+  .main
+    &__hit
+      margin: 0 auto
+      margin-top: 40px
+      width: 78%
+      flex-wrap: wrap
+    &__about
+      width: 80%
+    &__commercial
+      & article,
+      & form
+        width: 45%
+
+  .feedback
+    &__background-grey
+      margin-left: 5px
+      margin-right: 5px
+      & input
+        width: 270px
+
+  .location
+    &__map
+      width: 100%
+
+  .footer
+    &__documents
+      width: 28%
+      & a:nth-child(2)
+        padding-right: 47px
+
+
+@media (max-width: 768px)
+  .container
+    width: 768px
+  .nav
+    &__search,
+    & button
+      margin-left: 0.7rem
+  .main
+    &__about
+      height: auto
+  .description
+    &__item-description
+      width: 100%
+  .feedback
+    &__background-grey
+      & input
+        margin-top: 0
+        margin-bottom: 5px
+        height: 35px
+      & button
+        height: 35px
+        margin-left: 18px
+  .swiper
+    &-slide
+      & img
+        margin-left: -200px
 
 
 
-@media screen and (max-width: 480px)
+
+@media (max-width: 480px)
+  .container
+    width: 480px
   .header
     &__nav
       display: flex
       flex-direction: column
       justify-content: center
-      align-items: flex-start
+      align-items: center
+    &__time,
+    &__tel
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
 
   .nav
     &__search,
     & button
       margin-top: 0.7rem
+  .swiper
+    &-container
+      display: none
+  .article
+    &__raspberry,
+    &__chocolate
+      width: 80%
+  .main
+    &__commercial
+      flex-direction: column
+      & article,
+      & form
+        width: 80%
+        margin-top: 20px
+    &__hit
+      display: none
+
+  .footer
+    padding: 5px
+    &__documents
+      display: none
+
+
+
