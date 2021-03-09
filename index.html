@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glassy Shop</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="dist/css/style.min.css">
-    <script src="https://api-maps.yandex.ru/2.1/?apikey=e0e92ae0-e52b-4333-a12a-36c943c85c21&lang=ru_RU"
-            type="text/javascript">
-    </script>
+    <link rel="stylesheet" href="./dist/css/style.min.css">
 </head>
 
 <body>
@@ -178,7 +175,10 @@
     </section>
 
     <section class="location main__location">
-        <div class="map location__map" id="map"></div>
+
+        <div class="map location__map" id="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A01a80093cd697fe40f83b3075adf5b112cfe0b8bb0bdcfe380662b105acc0cb1&amp;width=100%&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
         <div class="contacts location__contacts">
             <p>Адрес главного офиса <br>и офлайн-магазина:</p>
             <h3>ул. Большая Конюшенная, <br></br><span>19/8, Санкт-Петербург</span></h3>
