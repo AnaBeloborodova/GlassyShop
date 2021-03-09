@@ -1,4 +1,5 @@
 // создание яндекс-карты
+/*
 ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [59.938635, 30.323118],
@@ -31,7 +32,7 @@ ymaps.ready(function () {
     myMap.geoObjects
         .add(myPlacemark);
 });
-
+*/
 //создание слайдера
 
 var mySwiper = new Swiper('.swiper-container', {
