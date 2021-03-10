@@ -2,7 +2,7 @@
   html
     font-size: 12px
   .container
-    width: 1024px
+    max-width: 1024px
 
   .header
     &__time,
@@ -54,7 +54,7 @@
 
 @media (max-width: 768px)
   .container
-    width: 768px
+    max-width: 768px
   .nav
     &__search,
     & button
@@ -84,7 +84,7 @@
 
 @media (max-width: 480px)
   .container
-    width: 480px
+    max-width: 480px
   .header
     &__nav
       display: flex
@@ -123,6 +123,27 @@
     padding: 5px
     &__documents
       display: none
+
+@media (max-width: 320px)
+  .container
+    max-width: 320px
+  .article
+    &__raspberry,
+    &__chocolate
+      height: auto
+      & h2
+        margin-top: 10px
+      & button
+        align-self: center
+  .main
+    &__about
+      width: 95%
+  .feedback
+    &__background-grey
+      & p
+        margin-top: 0
+      & input
+        width: 85%
 
 
 
