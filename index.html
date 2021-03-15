@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="./dist/css/style.min.css">
 </head>
 
-<body>
+<body style="overflow-x: hidden">
 
 
-<div class="swiper-container-fon">
+<div class="swiper-container-fon" style="overflow-x: hidden">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
         <!-- Slides -->
@@ -177,7 +177,7 @@
     <section class="location main__location">
 
         <div class="map location__map" id="map">
-            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6fd26846fe8c6985ad1883200db741d98f929762c5d95eec889d23a5392480ac&amp;width=1256&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6fd26846fe8c6985ad1883200db741d98f929762c5d95eec889d23a5392480ac&amp;max-width=1256&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
         </div>
         <div class="contacts location__contacts">
             <p>Адрес главного офиса <br>и офлайн-магазина:</p>
@@ -192,7 +192,7 @@
                     <h3>Мы обязательно вам ответим!</h3>
                     <input type="text" name="userName" placeholder="Имя Фамилия">
                     <input type="email" name="userEmail" placeholder="email@example.com">
-                    <textarea name="form" id="" cols="50" rows="7" placeholder="В свободной форме"></textarea>
+                    <textarea name="form" id="" cols="40" rows="7" placeholder="В свободной форме"></textarea>
                     <button type="submit" class="button--orange">Отправить</button>
                 </form>
             </div>

@@ -2,8 +2,9 @@
   display: none
   position: absolute
   z-index: 100
-  bottom: -10%
-  right: 100%
+  bottom: -50px
+  right: 220px
+
   &__form
     position: relative
     display: flex
@@ -11,7 +12,8 @@
     justify-content: space-around
     align-items: flex-start
     padding-left: 23px
-    width: 477px
+    padding-right: 23px
+    max-width: 477px
     height: 441px
     background: #F8F7F4
     border-radius: 6px
@@ -37,16 +39,17 @@
         outline-color: #E74A35
         border: 2px solid #E74A35
     & input
-      width: 267px
+      max-width: 267px
       height: 44px
     & textarea
+
       padding-top: 15px
 
     & button
       align-self: flex-end
       margin-right: 25px
       margin-bottom: 15px
-      width: 140px
+      max-width: 140px
       height: 44px
     & button + input
       width: 18px

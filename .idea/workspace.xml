@@ -4,11 +4,14 @@
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-article.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-article.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-commercial.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_setting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_setting.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_form.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-location.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-location.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_slider-body.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_slider-body.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +125,8 @@
       <workItem from="1615354715800" duration="421000" />
       <workItem from="1615360141544" duration="926000" />
       <workItem from="1615366028684" duration="1793000" />
-      <workItem from="1615367842677" duration="514000" />
+      <workItem from="1615367842677" duration="566000" />
+      <workItem from="1615792917239" duration="4717000" />
     </task>
     <task id="LOCAL-00001" summary="слайдер">
       <created>1611849758344</created>

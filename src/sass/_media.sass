@@ -1,8 +1,6 @@
-@media (max-width: 1024px)
+@media (max-width: $desktop-full)
   html
     font-size: 12px
-  .container
-    max-width: 1024px
 
   .header
     &__time,
@@ -43,7 +41,7 @@
 
   .location
     &__map
-      width: 100%
+      width: 95%
 
   .footer
     &__documents
@@ -52,13 +50,19 @@
         padding-right: 47px
 
 
-@media (max-width: 768px)
-  .container
-    max-width: 768px
+@media (max-width: $desktop)
   .nav
     &__search,
     & button
       margin-left: 0.7rem
+    &__logo
+      margin-bottom: 10px
+    &__catalog-link
+      margin-bottom: 10px
+    &__catalog
+      top: 95px
+      left: 40%
+
   .main
     &__about
       height: auto
@@ -78,13 +82,14 @@
     &-slide
       & img
         margin-left: -200px
+  .modal
+    right: 50px
 
 
 
 
-@media (max-width: 480px)
-  .container
-    max-width: 480px
+@media (max-width: $tablet)
+
   .header
     &__nav
       display: flex
@@ -124,9 +129,8 @@
     &__documents
       display: none
 
-@media (max-width: 320px)
-  .container
-    max-width: 320px
+@media (max-width: $mobile)
+
   .article
     &__raspberry,
     &__chocolate
@@ -144,6 +148,16 @@
         margin-top: 0
       & input
         width: 85%
+  .modal
+    &__form
+      & textarea
+        width: 95%
+  .search
+    &__box
+      width: 80%
+  .box
+    &__field
+      width: 80%
 
 
 
